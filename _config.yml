@@ -61,12 +61,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://www.woyaogexing.com/touxiang/nan/2020/1063487.html"
+                href="img2.woyaogexing.com/2020/09/29/671bf5c4475144bb8a69321ffdbd4225!400x400.jpeg"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="img2.woyaogexing.com/2020/09/29/671bf5c4475144bb8a69321ffdbd4225!400x400.jpeg"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
