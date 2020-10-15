@@ -22,7 +22,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <iframe
     src="https://music.163.com/outchain/player?type=0&id=5288033350&auto=1&height=32"
     width=100%
-    height=52
+    height=32
     frameborder="no"
     border="0"
     marginwidth="0"
@@ -61,12 +61,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="https://s.gravatar.com/avatar/b8c574796aed242c297cace134e68e68?s=320"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="https://s.gravatar.com/avatar/b8c574796aed242c297cace134e68e68?s=32"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
@@ -229,7 +229,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://s.gravatar.com/avatar/b8c574796aed242c297cace134e68e68?s=320 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
