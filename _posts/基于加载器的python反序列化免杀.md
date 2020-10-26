@@ -1,3 +1,8 @@
+---
+title: 基于加载器的python反序列化免杀(打包生成的exe暂只支持win7可执行)
+tags:
+  - 免杀
+---
 # 基于加载器的python反序列化免杀(打包生成的exe暂只支持win7可执行)
 
 <strong>PS：来自moonsec师傅的分享</strong>
