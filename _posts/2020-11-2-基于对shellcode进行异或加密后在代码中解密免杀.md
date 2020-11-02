@@ -1,9 +1,9 @@
 ---
-title: 基于加载器的python反序列化免杀
+title: 基于对shellcode进行异或免杀
 tags:
   - 免杀
 ---
-### 基于对shellcode进行异或加密后在代码中解密免杀
+### 基于对shellcode进行异或免杀
 
 **PS:感谢倾旋大佬，**[ascotbe](https://www.secpulse.com/newpage/author?author_id=26488)**大佬的分享**
 
