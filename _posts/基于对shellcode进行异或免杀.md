@@ -87,11 +87,11 @@ Msf：
 
 生成结果如下：
 
-![](https://fifteenblackslime.github.io/assets/pic/media1/0da9dfef4e4086c0e20a613b270507c7.png)
+![](https://fifteenblackslime.github.io/assets/pic/media2/0da9dfef4e4086c0e20a613b270507c7.png)
 
 Payload.c内容为：
 
-![](https://fifteenblackslime.github.io/assets/pic/media1/53d890566ef4831276da8a6585f37a7c.png)
+![](https://fifteenblackslime.github.io/assets/pic/media2/53d890566ef4831276da8a6585f37a7c.png)
 
 #### 0x04 使用vs2019进行解密打包生成exe
 
@@ -162,16 +162,15 @@ Payload.c内容为：
         return 0;
     }
 
-![](https://fifteenblackslime.github.io/assets/pic/media1/507a365e287579cf8ec827c9b4413056.png)
+![](https://fifteenblackslime.github.io/assets/pic/media2/507a365e287579cf8ec827c9b4413056.png)
 
 生成release版本exe
 
 使用过程中我添加了如下代码去除cmd窗口：
 
-| ShowWindow(GetConsoleWindow(), SW_HIDE); |
-|------------------------------------------|
+    ShowWindow(GetConsoleWindow(), SW_HIDE); 
 
-![](https://fifteenblackslime.github.io/assets/pic/media1/75c00948267dd56d986d21f999545c3e.png)
+![](https://fifteenblackslime.github.io/assets/pic/media2/75c00948267dd56d986d21f999545c3e.png)
 
 ##### 0x05免杀结果
 
